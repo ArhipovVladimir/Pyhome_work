@@ -9,3 +9,17 @@
 # - x=34; y=-30 -> 4
 # - x=2; y=4-> 1
 # - x=-34; y=-30 -> 3
+
+def find_qart (x, y):
+    if x > 0 and y > 0: print ("точка в 1 четверти") 
+    elif x < 0 and y > 0: print ("точка в 2 четверти")
+    elif x < 0 and y < 0: print ("точка в 3 четверти")
+    elif x > 0 and y < 0: print ("точка в 4 четверти")
+    elif x == 0 and y != 0: print ("точка на оси Y")
+    elif x != 0 and y == 0: print ("точка на оси X")
+    else: print ("точка в начале координат")
+
+point_x = int(input("Веедите Координату Х:"))
+poini_y = int(input("Веедите Координату У:"))
+
+find_qart (point_x, poini_y)
