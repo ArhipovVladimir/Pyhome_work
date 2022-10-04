@@ -8,17 +8,17 @@ def get_digit (dig):
        result_list.append(i)
     return (result_list)
 
-def sum_poz (l,l_poz):
-    resalt=0
+def pow_poz (l,l_poz):
+    resalt=1
     for i in l:
-        if i in l_poz: resalt +=l[i]
+        if i in l_poz: resalt *=l[i]
     return resalt
 
 
 
 num=int(input(" введите число:"))
 list= get_digit(num)
-list_poz=[2,3]
-sum=sum_poz(list, list_poz)
-print (f' сумма числел последовательности {get_digit(num)} равна {sum}') 
+list_poz=[2,4]
+pow=pow_poz(list, list_poz)
+print (f' произведение числел последовательности {get_digit(num)} равна {pow}') 
 
