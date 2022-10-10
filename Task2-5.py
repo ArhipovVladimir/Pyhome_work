@@ -9,11 +9,7 @@ def get_digit (dig):
        result_list.append(i)
     return (result_list)
 
-# def no_sort_list (list):
-#     n_list=[]
-#     for i in range(0,len(list)-1):
-#         n_list[i] = list[randint(0,len(list)-1)]
-#     return n_list
+
 
 def no_sort_list (list):
     for i in range(0,len(list)-1):
