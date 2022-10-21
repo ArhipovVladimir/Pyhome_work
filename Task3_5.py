@@ -6,12 +6,14 @@
 
 
 def dex_bin (num):
-    result = str('z')
-    while num >0:
-        resalt = str(num % 2) + resalt
-        num = num // 2
-    return result
-
+    x = [1, 1]
+    for i in range(2, num):
+        x.append(x[i-1] + x[i-2])
+    
+    y= [-x[num-1], x[num-2]]
+    for i in range(2, num*2+1):
+        y.append(y[i-1] + y[i-2])
+    return y
 
 
 dig=int(input("введите число: "))
