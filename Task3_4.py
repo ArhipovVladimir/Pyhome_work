@@ -8,7 +8,7 @@
 # 5.Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 
 def dex_bin (num):
-    result = " "
+    result = ' '
     while num > 0:
         resalt = str(num % 2) + resalt 
         num = num // 2
