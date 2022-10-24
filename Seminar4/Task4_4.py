@@ -17,3 +17,7 @@ def get_urovn(k):
 pow = int(input("степень: "))
 urov = get_urovn(pow)
 print (urov)
+
+data = open ('file.txt', 'w') 
+data.write (urov)
+data.close
