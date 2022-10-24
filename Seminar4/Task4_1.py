@@ -4,11 +4,11 @@
 import math
 
 
-def res_round (r):
+def res_round(r):
     r1 = len(r.split('.')[1])
     resalt = round (math.pi,r1)
     return resalt
 
 
 razm = input('Веедите точность числа Например 0.0001')
-print (res_round (razm))
+print(res_round (razm))

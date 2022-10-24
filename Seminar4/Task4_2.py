@@ -1,7 +1,7 @@
 # 2 Задайте натуральное число N. Напишите программу, которая составит список
 # простых множителей числа N.
 
-def find_mult (dig1):
+def find_mult(dig1):
     prost_dig = [2, 3, 5, 7, 11, 13, 17]
     num = dig1
     spisok = []
@@ -11,4 +11,4 @@ def find_mult (dig1):
     return spisok
 
 dig = int(input("введите число: "))
-print (find_mult (dig))
+print(find_mult (dig))
