@@ -9,8 +9,8 @@ import random
 def get_urovn(k):
     resalt =""
     for i in range (k, 0 , -1):
-        resalt = resalt + str(random.randint(0, 101)) + "x^" + str(i) + "+" 
-    resalt = resalt + str(random.randint(0, 101))
+        resalt = resalt + str(random.randint(0, 101)) + " x^" + str(i) + " + " 
+    resalt = resalt + str(random.randint(0, 101)) + " = 0"
     return resalt
 
 
