@@ -19,13 +19,13 @@
 stroka = 'дом, окно, дверь, стена, кухня, стол, стул, дверь, дом, стул, стол, окно, стул'
 print(stroka)
 
-list_stroka=stroka.split(", ")
+list_stroka = stroka.split(", ")
 print(list_stroka)
 
-set_stroka=set(list_stroka)
+set_stroka = set(list_stroka)
 print(set_stroka)
 
-list_srtoka_no_dubl=list(set_stroka)
+list_srtoka_no_dubl = list(set_stroka)
 list_count=[]
 
 # list_count = map(lambda element: list_count.append(list_stroka.count(element), list_stroka)) 
