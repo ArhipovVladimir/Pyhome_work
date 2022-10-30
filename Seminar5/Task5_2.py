@@ -21,6 +21,8 @@ stroka = 'дом, окно, дверь, стена, кухня, стол, сту
 print(stroka)
 
 list_stroka=list(stroka)
+print(list_stroka)
+
 set_stroka=set(list_stroka)
 list_srtoka_no_dubl=list(set_stroka)
 list_count=[]
