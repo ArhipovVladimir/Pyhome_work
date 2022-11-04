@@ -1,3 +1,3 @@
-import Task7_1_1 as user
+import user_choice as user
 
 user.input_choice()

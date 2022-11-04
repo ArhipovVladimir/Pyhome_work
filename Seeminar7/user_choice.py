@@ -1,4 +1,4 @@
-import Task7_1 as f
+import model as f
 
 def input_choice():
 
