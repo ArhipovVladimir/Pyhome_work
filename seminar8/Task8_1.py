@@ -1,3 +1,6 @@
-import TicTacToe3 as T3
+# import TicTacToe3 as T3
 
-T3.play()
+# T3.play()
+
+import matplotlib 
+
